@@ -83,3 +83,48 @@ header div a {
  header div a:hover {
      background-color: #8662c7;
  }
+
+ /* Note we can use the .card class selector here, as a class has been assigned to the <section> elements. */
+.card {
+   float: left;
+   display: inline-block;
+   width: calc(33% - 10px);
+   margin: 10px 5px;
+   background-color: white;
+ }
+
+ .card div {
+   padding: 20px 5px;
+}
+
+.card img {
+   width: 100%;
+}
+
+.card div.description {
+   font-size: 12px;
+}
+
+.card h3 {
+   font-size: 14px;
+}
+
+.social {
+   margin-top: 1rem;
+   font-size: 12px;
+ }
+ 
+ .social span {
+   background-size: contain;
+   background-repeat: no-repeat;
+   padding-left: 25px;
+   margin-right: 10px; /* we could use use 1em here, but 10px is a bit more precise */
+ }
+ 
+ .social .heart {
+   background-image: url(./images/heart.png);
+ }
+ 
+ .social .comment {
+   background-image: url(./images/comment.png);
+ }
