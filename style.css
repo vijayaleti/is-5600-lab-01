@@ -14,3 +14,26 @@ body {
 }
 
 /* add styles here */
+header {
+   background-image: url(images/florence.jpg); 
+   background-size: cover;
+   width: 100%;
+   min-height: 500px;
+}
+
+nav {
+   background-image: url(images/logo.svg);
+   background-size: 60px;
+   background-repeat: no-repeat;
+   background-position: 10px 5px;
+   padding: 20px;
+   height: 100px;
+ }
+ nav li {
+   display: inline-block;
+   list-style-type: none;
+ }
+
+ nav ul {
+   margin-left: 80px;
+ }
