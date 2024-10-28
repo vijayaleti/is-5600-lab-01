@@ -37,3 +37,23 @@ nav {
  nav ul {
    margin-left: 80px;
  }
+
+ nav a {
+   color: #51279b;
+   text-decoration: none;
+   padding: 10px;
+   font-weight: 600;
+ }
+ 
+ nav a:visited {
+   color: #8662c7;
+ }
+ 
+ nav a:hover {
+   color: #8662c7;
+   text-decoration: underline;
+ }
+
+ header div {
+   margin: 100px 0 0 80px;
+ }
